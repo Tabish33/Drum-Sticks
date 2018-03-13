@@ -23,7 +23,8 @@ html{
   border-radius: 5px;
   color: white;
   background: black;
-  opacity: 0.7;
+  background: rgba(0, 0, 0, 0.7);
+  transition: 0.3s;
 }
 
 kbd{
@@ -34,4 +35,14 @@ kbd{
 
 .audiotype{
   font-size: 12px;
+  color: yellow;
+  font-family: monospace;
+}
+
+.playing{
+  transform: scale(1.5);
+  opacity: 1;
+  text-shadow:  0px 0px 10px yellow;
+  box-shadow: 3px 3px 50px yellow;
+  border-color: yellow;
 }
