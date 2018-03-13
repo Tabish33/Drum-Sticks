@@ -1,3 +1,37 @@
-body{
-  background-image: url('https://hdwallsbox.com/wallpapers/l/1920x1080/61/miles-davis-abstract-jazz-music-1920x1080-60662.jpg');
+html{
+  height: 100vh;
+  background-image: url('band.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+}
+
+.keys{
+  position: relative;
+  top: 30px;
+  text-align: center;
+}
+
+.key{
+  display: inline-block;
+  padding: 30px;
+  border :3px solid black;
+  width: 45px; height: 45px;
+  position: relative;
+  margin:10px;
+  border-radius: 5px;
+  color: white;
+  background: black;
+  opacity: 0.7;
+}
+
+kbd{
+  font-size: 40px;
+  position: relative;
+  bottom: 5px;
+}
+
+.audiotype{
+  font-size: 12px;
 }
